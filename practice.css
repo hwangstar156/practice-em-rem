@@ -1,0 +1,27 @@
+body {
+  width: 50%;
+  font-size: 2rem;
+  border: 2px solid burlywood;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.title {
+  padding: 0.5em 0.5rem;
+  background-color: burlywood;
+}
+
+.content {
+  font-size: 1rem;
+  padding: 0.5em 0.5rem;
+}
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
